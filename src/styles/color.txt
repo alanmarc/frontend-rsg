@@ -1,0 +1,7 @@
+#464646
+#FFFFFF
+#ACCC7B
+#668A4C
+#30391F
+
+Movil:
