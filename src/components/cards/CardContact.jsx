@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import CardContactArt from '../../styles/cardContact-art'
+import CardContactArt from '../../styles/cardContact-art';
 
 export const CardContact = () => {
   const regexCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -29,7 +29,6 @@ export const CardContact = () => {
     }
     if(isLogin && password.length >= 8){
       alert("Has iniciado sesión");
-      window.location.href = "/account";
     }
   
   };
