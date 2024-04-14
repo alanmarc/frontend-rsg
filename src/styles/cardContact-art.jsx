@@ -51,12 +51,16 @@ p, label, input, textarea{
     }
     
     input{
-        height: 30px;
+        height: 54px;
         background: rgba(255, 255, 255, 0.12);
         border: #FFF .1px solid;
         border-radius: 4px;
         color: #FFF;
         margin: 12px;
+        padding: 6px;
+    }
+    input::placeholder{
+        color: #FFF;
         padding: 6px;
     }
     button{

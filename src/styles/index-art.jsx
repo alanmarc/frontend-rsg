@@ -2,10 +2,9 @@ import styled from 'styled-components'
 
 const IndexArtStyled = styled.div`
 *{
-  margin: 0;
+  margin-top: 0;
   box-sizing: border-box;
   font-family: serif;
-  background-color: #2fd8e7;
 }
 
   .presentation{
@@ -14,6 +13,7 @@ const IndexArtStyled = styled.div`
     justify-content: center;
     align-self: center;
     text-align: center;
+    margin-top: 60px;
   }
 
   .info{
@@ -64,6 +64,7 @@ const IndexArtStyled = styled.div`
       display: flex;
       justify-content: center;
       align-self: center;
+      margin-top: 0;
       
     }
   
